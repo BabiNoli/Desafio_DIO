@@ -1,4 +1,4 @@
-let xp = 10001;
+let xp = 101;
 
 switch (true) {
   case xp >= 0 && xp <= 1000:
