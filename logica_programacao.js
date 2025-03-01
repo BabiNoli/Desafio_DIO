@@ -1,17 +1,4 @@
-do{    
-    try {
-        let xp = parseInt(prompt("Digite a quantidade de XP: "));
-        console.log("Você possui " + xp + " XP");  
-        if (isNaN(xp)) {
-            throw new Error("Valor inválido. Não é um número.");
-        }
-        if (xp < 0) {
-            throw new Error("Valor inválido. Não pode ser negativo.");
-        }
-    } catch (error) {
-        console.log("Erro: " + error.message);   
-    }
-} while (isNaN(xp) || xp < 0);
+let xp = 10001;
 
 switch (true) {
   case xp >= 0 && xp <= 1000:
